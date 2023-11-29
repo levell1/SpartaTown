@@ -41,7 +41,7 @@
 
 ![image](https://github.com/levell1/levell1.github.io/assets/96651722/ee0f198c-ae48-4d35-831c-505af0be8897)  
 1.&nbsp;zep 캡쳐해서 만든 캐릭터  
-2.&nbsp;국민님이 만들어주심 PostIT  
+2.&nbsp;국민님이 만들어주신 PostIT  
 
 <br><br>
 

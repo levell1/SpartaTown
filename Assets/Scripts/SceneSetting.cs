@@ -11,6 +11,7 @@ public class SceneSetting : MonoBehaviour
     {
         GameManager.Instance.zep = zep;
         GameManager.Instance.postit = postit;
+        GameManager.Instance.ChangePlayer();
     }
 
 }
