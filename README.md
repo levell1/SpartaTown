@@ -175,6 +175,22 @@ private void Update()
 ![image](https://github.com/levell1/levell1.github.io/assets/96651722/e59c101b-028f-4384-b487-7c192b3f9f91)  
 CircleCollider로 ontrigger enger, exit 로 대화 활성화 , 비활성화.
 
+
+## 9. Scripts
+![image](https://github.com/levell1/levell1.github.io/assets/96651722/ff2dc79a-85b3-49cd-a37f-50eddf37c895)  
+
+> Animator -> 애니메이션  
+> Change -> 아이디, 캐릭터 모습변경  
+> FirstSceneScrips -> nameScene 에 필요한 코드들 ()  
+> MenuController.cs -> 아이디 변경, 캐릭 모습변경 메뉴 컨트롤  
+> TimeView -> 시간 표시   
+> SceneSetting -> 씬 이동시 GameObject에 필요한 값 전달
+
+
+
+
+
+
 <br><br><br><br><br>
 - - - 
 
