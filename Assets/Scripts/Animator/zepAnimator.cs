@@ -14,6 +14,4 @@ public class zepAnimator : MonoBehaviour
         Vector2 moveInput = value.Get<Vector2>().normalized;
         animator.SetBool("Iswalk", moveInput != Vector2.zero);
     }
-
-
 }

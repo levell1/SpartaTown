@@ -3,8 +3,8 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
 
-    [SerializeField] private GameObject zep;
-    [SerializeField] private GameObject postit;
+    public GameObject zep;
+    public GameObject postit;
 
     private static GameManager instance = null;
 
@@ -24,17 +24,15 @@ public class GameManager : MonoBehaviour
         if (null == instance)
         {
             instance = this;
-
             DontDestroyOnLoad(this.gameObject);
         }
         else { 
             Destroy(this.gameObject);
         }
-        
+
     }
     private void Start()
     {
-
         ChangePlayer();
     }
     public void ChangePlayer() {
