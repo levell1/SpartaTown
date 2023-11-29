@@ -150,6 +150,8 @@ public void OnMove(InputValue value) // w  a  s d
 ```
 </div>
 
+<br><br>
+
 ## 7. 시간 표시  
 시간표시
 
@@ -166,6 +168,8 @@ private void Update()
 ```
 </div>
     
+<br><br>
+
 ## 8. NPC 대화  
 ![image](https://github.com/levell1/levell1.github.io/assets/96651722/5c6eb70a-7c0f-4333-bf77-611dba089794)    
 ![image](https://github.com/levell1/levell1.github.io/assets/96651722/e59c101b-028f-4384-b487-7c192b3f9f91)  
@@ -176,6 +180,8 @@ CircleCollider로 ontrigger enger, exit 로 대화 활성화 , 비활성화.
 
 ![TopDown1](https://github.com/levell1/levell1.github.io/assets/96651722/1fc33cba-8373-4509-a8bf-7ad31907ffaf)
 
+<br><br><br><br><br>
+- - - 
 
 ## GameManager  
 1번째 씬에서 GameManager를 생성하고  
@@ -202,6 +208,8 @@ public class SceneSetting : MonoBehaviour
 
 지금상황의 개선이고 처음부터 더 좋은 방법이 있다고 하였다. 좀 더 생각해보기.
 
+<br><br><br><br><br>
+- - - 
 
 
 # 잡담,느낀점
