@@ -183,6 +183,12 @@ CircleCollider로 ontrigger enger, exit 로 대화 활성화 , 비활성화.
 <br><br><br><br><br>
 - - - 
 
+## players
+![image](https://github.com/levell1/levell1.github.io/assets/96651722/3c4f3add-9eab-4378-b110-72e00795c78d)
+players에 부모를 생성해서 player들을 관리
+
+<br><br>
+
 ## GameManager  
 1번째 씬에서 GameManager를 생성하고  
 2번째 씬에서 gamemanager에 필요한 오브젝트를 넣어주는 방식을 사용하였습니다.  
