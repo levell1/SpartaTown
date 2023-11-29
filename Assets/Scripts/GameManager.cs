@@ -1,28 +1,40 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
-    int playernum = 0;
-    public GameObject zep;
-    public GameObject postit;
+
+    [SerializeField] private GameObject zep;
+    [SerializeField] private GameObject postit;
 
     private static GameManager instance = null;
+
+    public static GameManager Instance
+    {
+        get 
+        {
+            if (instance == null)
+            {
+                return null;
+            }
+            return instance;
+        }
+    }
     private void Awake()
     {
         if (null == instance)
         {
-
             instance = this;
 
             DontDestroyOnLoad(this.gameObject);
+        }
+        else { 
+            Destroy(this.gameObject);
         }
         
     }
     private void Start()
     {
+
         ChangePlayer();
     }
     public void ChangePlayer() {

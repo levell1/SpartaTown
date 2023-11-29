@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAimRotation : MonoBehaviour
@@ -34,11 +32,5 @@ public class PlayerAimRotation : MonoBehaviour
 
         characterRenderers.flipX = (Mathf.Abs(rotz) > 90f);
         armPivot.rotation = Quaternion.Euler(0,0,rotz);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

@@ -7,9 +7,8 @@ using UnityEngine.UI;
 
 public class JoinandChangeScene : MonoBehaviour
 {
-
-    public TMP_Text ChangeArea;
-    public Button JoinButton;
+    [SerializeField] private TMP_Text ChangeArea;
+    [SerializeField] private Button JoinButton;
 
     private void Update()
     {
@@ -21,7 +20,7 @@ public class JoinandChangeScene : MonoBehaviour
             JoinButton.interactable = true;
         }
     }
-    public void ChangeScene() 
+    private void ChangeScene() 
     {
 
         PlayerPrefs.SetString("name", ChangeArea.text);      

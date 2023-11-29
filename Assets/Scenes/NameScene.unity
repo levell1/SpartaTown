@@ -1189,7 +1189,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: baee3ed978d4827458e29639531333f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playernum: 0
   label: {fileID: 1627859716}
   player0View: {fileID: 839238800}
   player1View: {fileID: 1809205291}
@@ -2248,7 +2247,7 @@ SceneRoots:
   - {fileID: 589243542}
   - {fileID: 171982995}
   - {fileID: 733602304}
-  - {fileID: 707247526}
   - {fileID: 481859195}
   - {fileID: 1627859717}
+  - {fileID: 707247526}
   - {fileID: 1091717246}

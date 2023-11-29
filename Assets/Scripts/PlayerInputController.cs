@@ -1,12 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerInputController : PlayerController
 {
     private Camera _camera;
-    public GameObject Label1;
+    [SerializeField] private GameObject Label1;
 
 
     private void Awake()
@@ -21,12 +19,13 @@ public class PlayerInputController : PlayerController
             Vector2 moveInput = value.Get<Vector2>().normalized;
             CallMoveEvent(moveInput);
         }
-
     }
-    /*public void OnFire(InputValue value) 
+    /*
+    public void OnFire(InputValue value) 
     {
 
     }
+    
     public void OnJump(InputValue value)
     {
 

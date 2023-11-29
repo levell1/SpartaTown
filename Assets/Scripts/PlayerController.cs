@@ -1,6 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -18,25 +16,21 @@ public class PlayerController : MonoBehaviour
     {
         OnLookEvent?.Invoke(direction);
     }
-
-    /*    public void CallJumpEvent(Vector2 direction)
+    /*
+        public void CallJumpEvent(Vector2 direction)
         {
             OnJumpEvent?.Invoke(direction);
         }
-
-        public void CallFireEvent(Vector2 direction)
-        {
-            OnFireEvent?.Invoke(direction);
-        }*/
+    
+      
+    public void CallFireEvent(Vector2 direction)  
+    {    
+        OnFireEvent?.Invoke(direction);
+    }
+    */
 
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         
     }

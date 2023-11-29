@@ -1,11 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MenuController : MonoBehaviour
 {
-    public GameObject UserList;
-    public GameObject MenuBar;
+    [SerializeField] private GameObject UserList;
+    [SerializeField] private GameObject MenuBar;
     // Start is called before the first frame update
 
     private void Awake()
@@ -13,13 +11,13 @@ public class MenuController : MonoBehaviour
         UserList.SetActive(false);
         MenuBar.SetActive(true);
     }
-    public void exitMenu()
+    private void exitMenu()
     {
         MenuBar.SetActive(true);
         UserList.SetActive(false);
     }
 
-    public void ViewMenu()
+    private void ViewMenu()
     {
         MenuBar.SetActive(false);
         UserList.SetActive(true);
