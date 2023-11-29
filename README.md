@@ -185,8 +185,8 @@ CircleCollider로 ontrigger enger, exit 로 대화 활성화 , 비활성화.
 
 ## GameManager  
 1번째 씬에서 GameManager를 생성하고  
-2번째 씬에서 gamemanager에 필요한 오브젝트를 넣어주는 방식을 사용하였다.
-SceneSetting이라는 오브젝트,스크립트를 만들고 awake에서 gamemanager에 접근
+2번째 씬에서 gamemanager에 필요한 오브젝트를 넣어주는 방식을 사용하였습니다.  
+SceneSetting이라는 오브젝트,스크립트를 만들고 awake에서 gamemanager에 접근  
 ![image](https://github.com/levell1/levell1.github.io/assets/96651722/f769c403-1106-4678-9fcb-890aae481220)
 <div class="notice--primary" markdown="1"> 
 
@@ -206,14 +206,14 @@ public class SceneSetting : MonoBehaviour
 ```
 </div>
 
-지금상황의 개선이고 처음부터 더 좋은 방법이 있다고 하였다. 좀 더 생각해보기.
+지금상황의 개선이고 처음부터 더 좋은 방법이 있다고 하였고 어떤방법인지 알아봐야 될 거 같습니다.  
 
 <br><br><br><br><br>
 - - - 
 
 
 # 잡담,느낀점
-유니티 첫 개인과제로 하나의 게임? 을 만들면서 많은 생각이 들었습니다.
+유니티 첫 개인과제로 하나의 게임? 을 만들면서 많은 생각이 들었습니다.  
 
 > - 스크립트 관리는 잘 된 건지.  
 > - 이 메서드가 이 스크립트에 들어있는 게 맞는지.  
