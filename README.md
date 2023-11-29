@@ -174,6 +174,35 @@ CircleCollider로 ontrigger enger, exit 로 대화 활성화 , 비활성화.
 <br><br><br><br><br>
 - - - 
 
+![TopDown1](https://github.com/levell1/levell1.github.io/assets/96651722/1fc33cba-8373-4509-a8bf-7ad31907ffaf)
+
+
+## GameManager  
+1번째 씬에서 GameManager를 생성하고  
+2번째 씬에서 gamemanager에 필요한 오브젝트를 넣어주는 방식을 사용하였다.
+SceneSetting이라는 오브젝트,스크립트를 만들고 awake에서 gamemanager에 접근
+![image](https://github.com/levell1/levell1.github.io/assets/96651722/f769c403-1106-4678-9fcb-890aae481220)
+<div class="notice--primary" markdown="1"> 
+
+```c#
+public class SceneSetting : MonoBehaviour
+{
+    [SerializeField] private GameObject zep;
+    [SerializeField] private GameObject postit;
+    // Start is called before the first frame update
+    private void Awake()
+    {
+        GameManager.Instance.zep = zep;
+        GameManager.Instance.postit = postit;
+    }
+
+}
+```
+</div>
+
+지금상황의 개선이고 처음부터 더 좋은 방법이 있다고 하였다. 좀 더 생각해보기.
+
+
 
 # 잡담,느낀점
 유니티 첫 개인과제로 하나의 게임? 을 만들면서 많은 생각이 들었습니다.
@@ -185,7 +214,7 @@ CircleCollider로 ontrigger enger, exit 로 대화 활성화 , 비활성화.
 > - 막히는 게 있을 때 내가 선택한 방법이 좋은 방법인지  
 > - public private, [SerializeField] 에 대한 정확한 사용하는 이유.  
 
-**가장 큰 걱정은 내가 잘 하고 있는지에 대한 의심?**  
+**가장 큰 걱정은 내가 잘 하고 있는지에 대한 의심? 인 거 같습니다.**  
 
 
 <br><br>
